@@ -1,13 +1,14 @@
 import React from "react"
 import Navbar from "../components/Navbar"
+import Footer from "../components/Footer"
 export default function AboutUs(){
     return(
         <>
             <Navbar />
             
             <div className="flex flex-col items-center max-w-[1240px] mx-auto px-10 pb-16 pt-16">
-                <h1 className="text-6xl text-[#66fcf1] font-thin uppercase pb-4 md:text-7xl xl:text-8xl tracking-wider">About Us</h1>
-                <p className="border-t border-[#66fcf1] px-20 pt-4 text-lg">Established in 1985</p>
+                <h1 className="text-5xl text-[#66fcf1] border-b border-[#66fcf1] font-thin uppercase pb-4 md:text-7xl xl:text-8xl tracking-wider">About Us</h1>
+                <p className="pt-4 text-lg">Established in 1985</p>
             </div>
             <div className="bg-[#c5c6c7] ">
                 <div className=" text-[#1f2833] text-center max-w-[1240px] mx-auto px-8 sm:px-16 lg:px-32 py-16">
@@ -24,6 +25,7 @@ export default function AboutUs(){
                     </p>
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

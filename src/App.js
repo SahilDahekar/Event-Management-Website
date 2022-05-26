@@ -12,6 +12,7 @@ import Quiz7 from "./pages/Quiz7"
 import Quiz8 from "./pages/Quiz8"
 import AboutUs from "./pages/AboutUs"
 import ContactUs from "./pages/ContactUs"
+import Register from "./pages/Register"
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
@@ -28,7 +29,8 @@ export default function App(){
             <Route path="/five" element={<Quiz5/>}/>
             <Route path="/six" element={<Quiz6/>}/>
             <Route path="/seven" element={<Quiz7/>}/>
-            <Route path="/eight" element={<Quiz8/>}/> 
+            <Route path="/eight" element={<Quiz8/>}/>
+            <Route path="/register" element={<Register />} /> 
             <Route path="/aboutUs" element={<AboutUs />} />
             <Route path="/contactUs" element={<ContactUs />} />
         </Routes>

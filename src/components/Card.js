@@ -4,7 +4,7 @@ export default function Card({date, imgId, title , des}){
     // const imgAdd = {../images/{imgId}}
     return (
         <div className="mx-2">
-            <div className="bg-[#1f2833] rounded-xl overflow-hidden flex flex-col h-60 lg:h-80 ">
+            <div className="bg-[#1f2833] rounded-xl overflow-hidden flex flex-col h-60 lg:h-80">
                 <img src={process.env.PUBLIC_URL + `/images/${imgId}`} alt="Quiz" className="object-cover h-[40%] lg:h-[50%]" />
                 <div className="p-4 h-[40%]">
                     <p className="text-xs">{date}</p>

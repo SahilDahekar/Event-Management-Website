@@ -1,6 +1,6 @@
 import React from "react"
 import Navbar from "../components/Navbar"
-
+import Footer from "../components/Footer"
 export default function ContactUs(){
     return(
             <>
@@ -57,6 +57,7 @@ export default function ContactUs(){
                     </div>
                 </div>
                 {/* Message form section Ends */}
+                <Footer/>
             </>
     )
 }
