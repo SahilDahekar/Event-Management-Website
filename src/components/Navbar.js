@@ -22,7 +22,7 @@ export default function Navbar(props) {
                 <li className="p-2 whitespace-nowrap"><button className="py-2 px-4 bg-[#c6c5c7] font-bold uppercase text-[#1f2833] rounded-md hover:bg-[#66fcf1]" type="button" data-modal-toggle="authentication-modal">Log In</button></li>
             </ul>
             <div onClick={handleNav} className="block md:hidden">
-                {!nav ? <AiOutlineMenu /> : <AiOutlineClose />}
+                {!nav ? <AiOutlineMenu size={35} /> : <AiOutlineClose size={35} />}
             </div>
             <div className={!nav ? "fixed left-[-100%]" : "fixed left-0 top-0 z-10 w-[60%] border-r-gray-900 h-full bg-[#1f2833] ease-in-out duration-500 md:left-[-100%]"}>
                 <h1 className="text-[#66FCF1] font-bold text-3xl w-full m-4"><a href="/">PVGCOET.</a></h1>
